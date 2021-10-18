@@ -43,6 +43,10 @@ if (plan.equals("A") && alcohol.equals("SI") && lentes.equals("SI") && enfermeda
 
 }else if (plan.equals("A") && alcohol.equals("NO") && lentes.equals("SI") && enfermedad.equals("NO") && edad>40) {costofinal= 1200+(1200*5)/100+(1200*20)/100; 
 
+}else if (plan.equals("A") && alcohol.equals("SI") && lentes.equals("SI") && enfermedad.equals("NO") && edad<40) {costofinal= 1200+(1200*10)/100+(1200*5)/100+(1200*10)/100;
+
+}else if (plan.equals("A") && alcohol.equals("SI") && lentes.equals("SI") && enfermedad.equals("NO") && edad>40) {costofinal= 1200+(1200*10)/100+(1200*5)/100+(1200*20)/100;
+
 }else if (plan.equals("B") && alcohol.equals("SI") && lentes.equals("SI") && enfermedad.equals("SI") && edad>40) {costofinal= 950+(950*10)/100+(950*5)/100+(950*5)/100+(950*20)/100;
 
 }else if (plan.equals("B") && alcohol.equals("SI") && lentes.equals("SI") && enfermedad.equals("SI") && edad<40) {costofinal= 950+(950*10)/100+(950*5)/100+(950*5)/100+(950*10)/100;
@@ -66,6 +70,10 @@ if (plan.equals("A") && alcohol.equals("SI") && lentes.equals("SI") && enfermeda
 }else if (plan.equals("B") && alcohol.equals("NO") && lentes.equals("SI") && enfermedad.equals("NO") && edad<40) {costofinal= 950+(950*5)/100+(950*10)/100;
 
 }else if (plan.equals("B") && alcohol.equals("NO") && lentes.equals("SI") && enfermedad.equals("NO") && edad>40) {costofinal= 950+(950*5)/100+(950*20)/100; 
+
+}else if (plan.equals("B") && alcohol.equals("SI") && lentes.equals("SI") && enfermedad.equals("NO") && edad<40) {costofinal= 950+(950*10)/100+(950*5)/100+(950*10)/100;
+
+}else if (plan.equals("B") && alcohol.equals("SI") && lentes.equals("SI") && enfermedad.equals("NO") && edad>40) {costofinal= 950+(950*10)/100+(950*5)/100+(950*20)/100;
 
 }
 //Datos de salida
